@@ -12,14 +12,14 @@
 
 编辑`settings.py`文件，设置编码、时区
 
-```
+```python
 LANGUAGE_CODE = 'zh-Hans'
 TIME_ZONE = 'Asia/Shanghai'
 ```
 
 #### 向`admin`注册模型
 
-```
+```python
 #----------admin.py---------
 from django.contrib import admin
 # Register your models here.
@@ -58,7 +58,7 @@ admin.site.register(Course)
 
 ###### 例子
 
-```
+```python
 #-----models.py------
 class Department(models.Model):
     d_id = models.AutoField(primary_key=True)
@@ -88,7 +88,7 @@ class Course(models.Model):
         )
 ```
 
-```
+```python
 # -----------admin.py--------
 from django.contrib import admin
 

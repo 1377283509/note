@@ -15,7 +15,7 @@ LinkedList 实现了java.io.Serializable接口，这意味着LinkedList支持序
 public LinkedList() {
     this.size = 0;
 }
-// 将一个非空的list
+// 将一个包含集合var1所有元素的list
 public LinkedList(Collection<? extends E> var1) {
     this();
     this.addAll(var1);

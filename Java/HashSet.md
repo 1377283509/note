@@ -52,7 +52,7 @@ Set<String> hashset = new HashSet<>(20, 0.5f);
 - 高初始容量适用于大量条目，几乎没有迭代
 - 低初始容量适用于具有大量迭代的少数条目
 
-#### 使用方法
+#### 遍历方法
 
 ```java
 HashSet<String> set = new HashSet<String>();
